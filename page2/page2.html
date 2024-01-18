@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Page 2</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Initial page navigation-->
+    <div class="navi">
+      <h1>Charlie's Website</h1>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../page1/page1.html">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="../page3/page3.html">About Me</a></li>
+      </ul>
+    </div>
+
+    <form action="/action_page.php" method="get">
+      <div class="container">
+        <h1>Congrats!</h1>
+        <h2>You just created your first Mad Lib!</h2>
+        <h3>Well, at least probably your first Mad Lib in a while.</h3>
+        <h4>Unless you've done this page before...</h4>
+        <h5>Anyways it's below. Go read it.</h5>
+        <p>This part doesn't work yet but enjoy these sentences:</p>
+        
+      </div>
+      <!--Here, link words from previous pages.`-->
+      <!--For now, doing this lazy select/option dropdown so they can view samples-->
+      <!--I know for this form to work I need action forms and values but this doesn't need to work-->
+      <div>
+        <p>Have you ever seen a 
+          <select>
+            <option>funky</option>
+            <option>clunky</option>
+            <option>skunky</option>
+          </select>
+          <select>
+            <option>lunk</option>
+            <option>chunk</option>
+            <option>skunk</option>
+          </select> without it's
+          <select>
+            <option>hunk</option>
+            <option>spunk</option>
+            <option>crunk</option>
+          </select>
+          ?
+        </p>
+        <p>Me neither! haha!</p>
+      </div>
+      <hr />
+      <div>
+        <p>Here, you can write your own madlib!</p>
+        <textarea cols="70" rows="10">Write something...</textarea>
+      </div>
+
+      <hr />
+      <div>
+        <p>
+          Click here to go to the
+          <a href="../page3/page3.html">NEXT PAGE</a>.
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

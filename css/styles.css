@@ -1,0 +1,52 @@
+
+.declaration {
+    font-family: 'Kablammo', sans-serif;
+    background-color: antiquewhite;
+}
+
+.d1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: aquamarine;
+}
+
+.font1{
+    font-family: "Roboto", Impact, sans-serif;
+    background-color: antiquewhite;
+}
+
+/* Navigation Bar */
+
+.navi {
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /*aligns so that the h1 element is on the left and the ul is on the right*/
+}
+
+/*creates the navigation function*/
+.navi ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: stretch;
+}
+
+.navi ul a {
+    display: block;
+    padding: 1em;
+}
+
+.navi ul a:hover {
+    background-color: rgb(0, 143, 143);
+}
+
+.aboutme {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aboutme div{
+    padding: 2%;
+}

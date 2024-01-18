@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>
+    Page 1
+  </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Initial page navigation-->
+    <div class="navi">
+      <h1>Charlie's Website</h1>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="../page2/page2.html">Page 2</a></li>
+        <li><a href="../page3/page3.html">About Me</a></li>
+      </ul>
+    </div>
+    
+    <form action="/action_page.php" method="post">
+      <div class="container">
+        <p>Do you remember...</p> <h1>Mad Libs</h1>
+        <hr />
+        <p>Let me explain how they work. First, I'll ask for some part of a sentence.</p>
+        <p>Your job is to fill in a word (any word!) that fits that part of speech.</p>
+        <p>For example, I could ask for an adjective. Your job would be to say something like, "creamy".</p>
+        <p>At the end, I'll put the words into a story and then you'll see what you've helped create!</p>
+        <p>We'll start with a small example. Remember, be creative and have fun!</p>
+
+        <label for="adjective"><b>Give me an adjective:</b></label>
+        <input
+          type="text"
+          placeholder="Adjective"
+          name="adjective"
+          id="adjective"
+          required
+        />
+        <br>
+        <label for="noun"><b>Give me a noun this time:</b></label>
+        <input
+          type="noun"
+          placeholder="Noun"
+          name="noun"
+          id="noun"
+          required
+        />
+        <br>
+        <label for="rhymedNoun"><b>Now, give me another noun that rhymes with the noun above:</b></label>
+        <input
+          type="rhymedNoun"
+          placeholder="Noun (that rhymes)"
+          name="rhymedNoun"
+          id="rhymedNoun"
+          required
+        />
+
+        <hr />
+        <!--TODO: MAKE THIS PART A BUTTON-->
+        <p>
+          When you're ready, click <a href="../page2/page2.html">HERE</a>
+        </p>
+
+      </div>
+
+    </form>
+  </body>
+</html>
