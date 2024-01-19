@@ -1,3 +1,1 @@
-# charles-c-chiang.github.io
-
-[Click here to go to the website](charles-c-chiang.github.io)
+# [charles-c-chiang.github.io](https://charles-c-chiang.github.io)
