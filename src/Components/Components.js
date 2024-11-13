@@ -1,7 +1,7 @@
 import Main from "./Main/Main.js"
 import About from "./About/About.js"
 
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 export default function Components() {
     return (
